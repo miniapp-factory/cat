@@ -36,6 +36,7 @@ export default function Home() {
     <main className="flex flex-col gap-3 place-items-center px-4">
       <span className="text-2xl">{title}</span>
       <span className="text-muted-foreground">{description}</span>
+      <img className="size-[400px]" src="/fat-orange-cat.png" alt="Fat orange cat" width={400} height={400} />
     </main>
   );
 }
